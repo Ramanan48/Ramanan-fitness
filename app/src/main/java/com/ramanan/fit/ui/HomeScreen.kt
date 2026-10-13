@@ -343,7 +343,6 @@ fun levelColor(l: Level): Color = when (l) {
     Level.WARMUP -> Palette.Warn
     Level.BEGINNER -> Palette.Rest
     Level.ADVANCED -> Palette.Exercise
-    Level.HARDER -> Palette.Danger
 }
 
 @Composable
